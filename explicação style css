@@ -1,4 +1,4 @@
-Vou explicar a função de cada bloco de código dentro das classes mencionadas:
+Explicação CSS:
 
 1. `section`: Essa classe define as propriedades para uma seção na página. Ela define que a seção ocupará 100% da largura da janela (`width: 100%`), terá uma altura mínima de 100% da altura da janela (`min-height: 100vh`), terá um preenchimento interno de 100px em todas as direções (`padding: 100px`), terá um layout de display flex, com os itens justificados com espaçamento uniforme entre eles (`justify-content: space-between`), e alinhados verticalmente (`align-items: center`). O plano de fundo da seção será branco (`background: #fff`).
 

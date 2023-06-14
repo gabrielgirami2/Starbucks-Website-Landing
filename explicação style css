@@ -1,0 +1,42 @@
+Vou explicar a função de cada bloco de código dentro das classes mencionadas:
+
+1. `section`: Essa classe define as propriedades para uma seção na página. Ela define que a seção ocupará 100% da largura da janela (`width: 100%`), terá uma altura mínima de 100% da altura da janela (`min-height: 100vh`), terá um preenchimento interno de 100px em todas as direções (`padding: 100px`), terá um layout de display flex, com os itens justificados com espaçamento uniforme entre eles (`justify-content: space-between`), e alinhados verticalmente (`align-items: center`). O plano de fundo da seção será branco (`background: #fff`).
+
+2. `header`: Essa classe define as propriedades para um cabeçalho dentro da seção. Ela é posicionada de forma absoluta no topo esquerdo da seção (`position: absolute; top: 0; left: 0;`), ocupando 100% da largura (`width: 100%`) e possui um preenchimento de 20px na parte superior e inferior e 100px nas laterais (`padding: 20px 100px`). O cabeçalho utiliza um layout de display flex, com os itens justificados com espaçamento uniforme entre eles (`justify-content: space-between`) e alinhados verticalmente (`align-items: center`).
+
+3. `header .logo`: Essa classe define as propriedades para o logotipo dentro do cabeçalho. Ela é posicionada de forma relativa (`position: relative`) e tem uma largura máxima de 80px (`max-width: 80px`).
+
+4. `header ul`: Essa classe define as propriedades para uma lista não ordenada dentro do cabeçalho. Ela é posicionada de forma relativa (`position: relative`) e utiliza um layout de display flex.
+
+5. `header ul li`: Essa classe define as propriedades para cada item de lista dentro da lista não ordenada. Ela remove os estilos de lista padrão (`list-style: none`).
+
+6. `header ul li a`: Essa classe define as propriedades para os links dentro dos itens de lista do cabeçalho. Os links são exibidos em linha (`display: inline-block`), possuem cor de texto #333 (`color: #333`), peso da fonte 400 (`font-weight: 400`), uma margem à esquerda de 40px (`margin-left: 40px`) e não possuem decoração de texto (`text-decoration: none`).
+
+
+7. `.content`: Essa classe define as propriedades para uma área de conteúdo. Ela é posicionada de forma relativa (`position: relative`), ocupa 100% da largura disponível (`width: 100%`), utiliza um layout de display flex, com os itens justificados com espaçamento uniforme entre eles (`justify-content: space-between`) e alinhados verticalmente (`align-items: center`).
+
+8. `.content .textBox`: Essa classe define as propriedades para a caixa de texto dentro da área de conteúdo. Ela é posicionada de forma relativa (`position: relative`) e possui uma largura máxima de 600px (`max-width: 600px`).
+
+9. `.content .textBox h2`: Essa classe define as propriedades para o título `<h2>` dentro da caixa de texto. Ele tem cor de texto #333 (`color: #333`), tamanho de fonte 4em, altura de linha 1.4em, peso da fonte 500 (`font-weight: 500`).
+
+10. `.content .textBox h2 span`: Essa classe define as propriedades para o `<span>` dentro do título `<h2>`. Ele tem cor de texto #017143, tamanho de fonte 1.2em e peso da fonte 900 (`font-weight: 900`).
+
+11. `.content .textBox p`: Essa classe define as propriedades para os parágrafos `<p>` dentro da caixa de texto. Eles têm cor de texto #333 (`color: #333`).
+
+12. `.content .textBox a`: Essa classe define as propriedades para os links `<a>` dentro da caixa de texto. Eles são exibidos em linha (`display: inline-block`), têm margem superior de 20px (`margin-top: 20px`), têm preenchimento de 8px na vertical e 20px na horizontal, têm fundo #017143, borda arredondada de 40px, peso da fonte 500, espaçamento de letras de 1px e não possuem decoração de texto (`text-decoration: none`).
+
+13. `.content .imgBox`: Essa classe define as propriedades para a caixa de imagem dentro da área de conteúdo. Ela tem uma largura de 600px, utiliza um layout de display flex, com os itens justificados à direita (`justify-content: flex-end`), possui um preenchimento à direita de 50px e uma margem superior de 50px.
+
+14. `.content .imgBox img`: Essa classe define as propriedades para as imagens dentro da caixa de imagem. Elas têm uma largura máxima de 340px.
+
+15. `.thumb`: Essa classe define as propriedades para uma lista de miniaturas de imagens. Ela é posicionada de forma absoluta, centralizada horizontalmente (`left: 50%; transform: translateX(-50%)`), exibida como um flex container (`display: flex`) e os itens da lista são exibidos em linha (`display: inline-block`). Cada item possui uma margem à esquerda e à direita de 20px e um efeito de transição de 0.5s quando passa o mouse sobre eles.
+
+16. `.sci`: Essa classe define as propriedades para uma lista de ícones de mídias sociais. Ela
+
+ é posicionada de forma absoluta, centralizada verticalmente (`top: 50%; transform: translateY(-50%)`), exibida como um flex container (`display: flex`), com os itens justificados no centro e alinhados verticalmente (`justify-content: center; align-items: center`), e tem uma orientação de coluna (`flex-direction: column`).
+
+17. `.sci li`: Essa classe define as propriedades para cada item da lista de ícones de mídias sociais. Ela remove os estilos de lista padrão (`list-style: none`).
+
+18. `.sci li a`: Essa classe define as propriedades para os links dentro dos itens da lista de ícones de mídias sociais. Eles são exibidos em linha (`display: inline-block`), têm uma margem de 5px na parte superior e inferior (`margin: 5px 0`), têm uma escala de 0.6 (`transform: scale(0.6)`) e têm um efeito de inversão de cores (`filter: invert(1)`).
+
+19. `.circle`: Essa classe define as propriedades para um elemento circular. Ele é posicionado de forma absoluta, ocupando todo o espaço disponível (`top: 0; left: 0; width: 100%; height: 100%`), tem um plano de fundo #017143 e utiliza um recorte em formato de círculo com um raio de 600px centrado à direita e 800px abaixo (`clip-path: circle(600px at right 800px)`).
